@@ -3,7 +3,7 @@
 
 package:
   name: r-spatstat.explore
-  version: {{ version|replace("-", "_") }}
+  version: "{{ version|replace("-", "_") }}"
 
 source:
   url:
@@ -50,11 +50,11 @@ requirements:
     - r-goftest >=1.2_2
     - r-nlme
     - r-spatstat.data >=3.1_9
-    - r-spatstat.geom >=3.7_2
-    - r-spatstat.random >=3.4_5
-    - r-spatstat.sparse >=3.1
-    - r-spatstat.univar >=3.1_7
-    - r-spatstat.utils >=3.2_2
+    - r-spatstat.geom >=3.8_1
+    - r-spatstat.random >=3.5_0
+    - r-spatstat.sparse >=3.2_0
+    - r-spatstat.univar >=3.2_0
+    - r-spatstat.utils >=3.2_3
   run:
     - r-base
     - r-matrix
@@ -62,11 +62,11 @@ requirements:
     - r-goftest >=1.2_2
     - r-nlme
     - r-spatstat.data >=3.1_9
-    - r-spatstat.geom >=3.7_2
-    - r-spatstat.random >=3.4_5
-    - r-spatstat.sparse >=3.1
-    - r-spatstat.univar >=3.1_7
-    - r-spatstat.utils >=3.2_2
+    - r-spatstat.geom >=3.8_1
+    - r-spatstat.random >=3.5_0
+    - r-spatstat.sparse >=3.2_0
+    - r-spatstat.univar >=3.2_0
+    - r-spatstat.utils >=3.2_3
 
 test:
   commands:
